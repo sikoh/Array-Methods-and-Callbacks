@@ -37,6 +37,8 @@ Use getFinals to do the following:
 hint - you should be looking at the stage key inside of the objects
 */
 
+//debuging needed
+
 function getFinals(data) {
   const NewArr = fifaData.filter((item) => !item.includes("Final"));
 
